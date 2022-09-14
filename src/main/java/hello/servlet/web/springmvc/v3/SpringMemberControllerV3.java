@@ -28,7 +28,7 @@ public class SpringMemberControllerV3 {
              @RequestParam("userName") String userName,
             @RequestParam("age") int age,
             Model model){
-        System.out.println("Hell");
+        System.out.println("VERSIONCONTROL");
         Member member = new Member(userName, age);
         memberRepository.save(member);
         model.addAttribute("member", member);
