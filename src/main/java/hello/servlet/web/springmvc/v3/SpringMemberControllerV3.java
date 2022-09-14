@@ -25,7 +25,7 @@ public class SpringMemberControllerV3 {
 
     @PostMapping("/save")
     public String save(
-            @RequestParam("userName") String userName,
+             @RequestParam("userName") String userName,
             @RequestParam("age") int age,
             Model model){
 
